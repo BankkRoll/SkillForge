@@ -1,0 +1,19 @@
+{
+  "name": "{{name}}",
+  "version": "{{version}}",
+  "description": "{{description}}",
+  "author": "{{author}}",
+  "license": "{{license}}",
+  "homepage": "{{homepage}}",
+  "repository": "{{repository}}",
+  "keywords": {{keywords}},
+  "engines": {
+    "claudeCode": "{{engines.claudeCode}}",
+    "node": "{{engines.node}}"
+  },
+  "skills": {{skills}},
+  "agents": {{agents}},
+  "hooks": {{hooks}},
+  "settings": {{settings}},
+  "dependencies": {{dependencies}}
+}

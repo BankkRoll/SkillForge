@@ -1,0 +1,73 @@
+{
+  "name": "skillforge",
+  "version": "0.1.0",
+  "description": "AI-powered skill, agent, and plugin generator for Claude Code and 40+ AI coding agents",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "skillforge": "./dist/cli/index.js",
+    "sf": "./dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsup src/cli/index.ts src/index.ts --format esm --dts --clean --entry.cli=src/cli/index.ts",
+    "dev": "tsx src/cli/index.ts",
+    "start": "node dist/cli/index.js",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src/",
+    "format": "prettier --write src/",
+    "test": "vitest"
+  },
+  "keywords": [
+    "ai",
+    "skills",
+    "agents",
+    "claude-code",
+    "copilot",
+    "cursor",
+    "cli",
+    "generator",
+    "skillforge",
+    "skills.sh"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@ai-sdk/gateway": "^3.0.63",
+    "@inquirer/prompts": "^7.0.0",
+    "ai": "^6.0.111",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "conf": "^13.0.0",
+    "cosmiconfig": "^9.0.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^11.0.0",
+    "gray-matter": "^4.0.3",
+    "jsdom": "^25.0.0",
+    "nanoid": "^5.0.0",
+    "ora": "^8.1.0",
+    "p-limit": "^6.1.0",
+    "p-retry": "^6.2.0",
+    "picocolors": "^1.1.0",
+    "playwright": "^1.48.0",
+    "turndown": "^7.2.0",
+    "yaml": "^2.5.0",
+    "zod": "^3.23.0"
+  },
+  "optionalDependencies": {
+    "keytar": "^7.9.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.0",
+    "@types/jsdom": "^21.0.0",
+    "@types/node": "^22.0.0",
+    "@types/turndown": "^5.0.0",
+    "prettier": "^3.8.1",
+    "tsup": "^8.3.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}

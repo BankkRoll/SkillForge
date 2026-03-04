@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+*.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# SkillForge
+.skillforge/
+output/
+generated/
+checkpoints/
+
+# Playwright
+playwright-report/
+playwright/.cache/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Misc
+*.bak
+*.tmp
+*.temp
