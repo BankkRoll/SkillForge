@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/BankkRoll/skillforge/main/.github/assets/logo.png" alt="SkillForge Logo" width="200" />
-</p>
-
 <h1 align="center">SkillForge</h1>
 
 > THIS WILL BURN THROUGH ALOT OF YOUR AI CREDITS FYI NEED CACHEING AND SOME BETTER OPTIMIZATIONS
