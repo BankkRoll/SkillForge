@@ -11,13 +11,6 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/skillforge"><img src="https://img.shields.io/npm/v/skillforge.svg?style=flat-square" alt="npm version" /></a>
-  <a href="https://www.npmjs.com/package/skillforge"><img src="https://img.shields.io/npm/dm/skillforge.svg?style=flat-square" alt="npm downloads" /></a>
-  <a href="https://github.com/BankkRoll/skillforge/blob/main/LICENSE"><img src="https://img.shields.io/github/license/BankkRoll/skillforge?style=flat-square" alt="license" /></a>
-  <a href="https://github.com/BankkRoll/skillforge/actions"><img src="https://img.shields.io/github/actions/workflow/status/BankkRoll/skillforge/ci.yml?style=flat-square" alt="build status" /></a>
-</p>
-
-<p align="center">
   <a href="#features">Features</a> •
   <a href="#installation">Installation</a> •
   <a href="#quick-start">Quick Start</a> •
@@ -94,26 +87,6 @@ Just provide a description, and SkillForge generates production-ready skills wit
 - Easy switching between Anthropic, OpenAI, and other providers
 
 ## Installation
-
-### npm
-
-```bash
-npm install -g skillforge
-```
-
-### pnpm
-
-```bash
-pnpm add -g skillforge
-```
-
-### yarn
-
-```bash
-yarn global add skillforge
-```
-
-### From Source
 
 ```bash
 git clone https://github.com/BankkRoll/skillforge.git
@@ -336,7 +309,7 @@ Examples:
 
 API keys and sensitive credentials are stored securely:
 
-- **System keychain** (recommended): Uses Windows Credential Manager, macOS Keychain, or Linux Secret Service. Requires `keytar` package: `npm install keytar`
+- **System keychain** (recommended): Uses Windows Credential Manager, macOS Keychain, or Linux Secret Service. Requires `keytar` package: `pnpm add keytar`
 - **Encrypted file**: Falls back to `~/.skillforge/credentials.enc` with machine-specific encryption
 
 ### `skillforge interactive`
@@ -607,15 +580,3 @@ pnpm build
 ## License
 
 MIT © [BankkRoll](https://github.com/BankkRoll)
-
----
-
-<p align="center">
-  Made with ❤️ for the AI coding community
-</p>
-
-<p align="center">
-  <a href="https://github.com/BankkRoll/skillforge">GitHub</a> •
-  <a href="https://www.npmjs.com/package/skillforge">npm</a> •
-  <a href="https://skills.sh">Skills.sh</a>
-</p>
